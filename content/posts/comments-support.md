@@ -149,16 +149,6 @@ if not we change one vector of the basis without affecting the other edges of th
 **Python Code**
 
 Here is a python code that solve an LP problem using the simplex method
-$$\alpha$$
-$\alpha$
-<img src="https://render.githubusercontent.com/render/math?math=\alpha">
 
-<img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> 
-- <img src="https://latex.codecogs.com/gif.latex?s=\text { sensor reading }  " /> 
-- <img src="https://latex.codecogs.com/gif.latex?P(s | O_t )=\text { Probability of a sensor reading value when sleep onset is observed at a time bin } t " />
-
-```math
-SE = \frac{\sigma}{\sqrt{n}}
-```
 ![](https://latex.codecogs.com/svg.latex?y%3Dx%5E2)
 
