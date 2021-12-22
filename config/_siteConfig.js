@@ -10,7 +10,7 @@ import theCMS from '../cms/netlify/cms'
  */
 export default {
   siteName: 'elghemary\'s blog',
-  tagline: 'A Nuxt.js Theme for Netlify CMS',
+  tagline: 'STEM end Art',
   featureImage: '/uploads/2.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
