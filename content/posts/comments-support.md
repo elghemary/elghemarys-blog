@@ -149,3 +149,6 @@ if not we change one vector of the basis without affecting the other edges of th
 **Python Code**
 
 Here is a python code that solve an LP problem using the simplex method
+$$\alpha$$
+$\alpha$
+<img src="https://render.githubusercontent.com/render/math?math=\alpha">
