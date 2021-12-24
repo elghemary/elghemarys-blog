@@ -1,6 +1,6 @@
 ---
 title: The Core of Simplex Method
-subtitle: hgfdvxs
+subtitle: The Geometrical Intuition Behind the Algorithm
 category:
   - About Awake
 author: El Ghemary Farah
@@ -152,4 +152,7 @@ Here is a python code that solve an LP problem using the simplex method
 
 ![](https://latex.codecogs.com/svg.latex?y%3Dx%5E2)
 <img src="http://www.sciweavers.org/tex2img.php?eq=%5Calpha%20&bc=Transparent&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\alpha " width="17" height="12" />
+$$\alpha$$
+$\alpha$
+\alpha
 
