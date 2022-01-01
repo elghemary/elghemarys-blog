@@ -151,11 +151,5 @@ if not we change one vector of the basis without affecting the other edges of th
 Here is a python code that solve an LP problem using the simplex method
 
 ![](https://latex.codecogs.com/svg.latex?y%3Dx%5E2)
-<img src="http://www.sciweavers.org/tex2img.php?eq=%5Calpha%20&bc=Transparent&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\alpha " width="17" height="12" />
-$$\alpha$$
-$\alpha$
-\alpha
-<body>
-When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+\\[ x = {-b \pm \sqrt{b^2-4ac} \over 2a} \\]
 
