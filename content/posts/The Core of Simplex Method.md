@@ -152,7 +152,4 @@ Here is a python code that solve an LP problem using the simplex method
 
 
 ![](https://latex.codecogs.com/svg.latex?y%3Dx%5E2)
-\\[ x = {-b \pm \sqrt{b^2-4ac} \over 2a} \\]bny
-\\( x = {-b \pm \sqrt{b^2-4ac} \over 2a} \\)bny
-
 
