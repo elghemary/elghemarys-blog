@@ -152,4 +152,4 @@ Here is a python code that solve an LP problem using the simplex method
 
 
 ![](https://latex.codecogs.com/svg.latex?y%3Dx%5E2)
-
+<img src="https://latex.codecogs.com/svg.image?H^{4}" title="H^{4}" />
