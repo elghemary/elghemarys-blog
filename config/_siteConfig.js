@@ -12,7 +12,7 @@ export default {
   siteName: 'elghemary\'s blog',
   tagline: 'STEM end Art',
   featureImage: '/uploads/2.jpg',
-  logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
+  logo: 'logo.png', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
     id: process.env.GOOGLE_ANALYTICS_ID
