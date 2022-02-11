@@ -10,7 +10,7 @@ import theCMS from '../cms/netlify/cms'
  */
 export default {
   siteName: 'elghemary\'s blog',
-  tagline: 'STEM end Art',
+  tagline: 'STEM and Art',
   featureImage: '/uploads/2.jpg',
   logo: 'logo.png', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
