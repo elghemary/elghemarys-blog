@@ -2,7 +2,7 @@
 title: The Core of Simplex Method
 subtitle: The Geometrical Intuition Behind the Algorithm
 category:
-  - Operation Research
+  - Mathematics
 author: El Ghemary Farah
 date: 2021-12-22T19:24:59.781Z
 featureImage: /uploads/1.jpg
