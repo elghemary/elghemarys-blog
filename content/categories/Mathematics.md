@@ -1,5 +1,5 @@
 ---
 name: Mathematics
-image: /uploads/1.jpg
+image: /uploads/art.jpg
 ---
 All about Mathematics
