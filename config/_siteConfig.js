@@ -28,7 +28,7 @@ export default {
     }
   ],
   hero: {
-    theme: 'mist' // options: mist, light, dark
+    theme: 'dark' // options: mist, light, dark
   },
 
   // Main Layout/Style
