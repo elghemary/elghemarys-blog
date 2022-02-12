@@ -1,6 +1,6 @@
 ---
 name: Art
-image: /uploads/art.jpg
+image: /uploads/art.jpeg
 ---
 All about Art
 
