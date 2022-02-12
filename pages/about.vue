@@ -2,7 +2,7 @@
   <div id="about-page" class="page-wrapper about-page content-page">
     <site-hero
       title="About Me"
-      subtitle=":)"
+      subtitle=" "
       image="/uploads/aboutme.png"
     ></site-hero>
     <main-section theme="sidebar-right">
