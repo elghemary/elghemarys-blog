@@ -10,14 +10,6 @@
         <div class="content"> 
         
         <article class="tile is-child box">
-      
-              <figure class="image is-1by1 ">
-                <opti-image
-                  :src="require('~/assets/uploads/logo.png').src"
-                  :srcset="
-                    require('~/assets/uploads/logo.png').srcSet"
-                />
-              </figure>
               <br />
               <div class="content">
                 <p>
