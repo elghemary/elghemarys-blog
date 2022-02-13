@@ -8,12 +8,13 @@ date: 2021-12-22T19:24:59.781Z
 featureImage: /uploads/1.jpg
 ---
 
-Throughout my personal experience, Operation Reasech was one of the easiest yet the most confusing courses that I took this year. and what I mean by easy, is that we were introduced to the field by memorizing some random calculations for every optimization tecnic. and yes it is terrible as it sounds, no one actually understood why we do all the long boring calculations, and the most important thing ! Why it works ? 
+Throughout my personal experience, Operation Reasech was one of the easiest yet the most confusing courses that I took this year, and what I mean by easy, is that we were introduced to the field by memorizing some random calculations for every optimization technique! and yes it is terrible as it sounds, no one actually understood why we do all the long boring calculations, moreover the most important thing ! Why it works ? 
 
-In this article, I will share the resume of what I learned, and how I like to think about every single step on the algorithm.
+In this article, I will share the summary of what I learned, and how I like to think about every single step on the algorithm.
 
-First of all, The simplex method comes in as an answer for the limitation of the graphical method. Instead of solving Linear programs (LP) of 2 variables, now we are able to solve LPs of n variables, isn't cool ? but why the "simplex" ? is it just some random name ?! 
-let's take a look to the Wikipedia definition :
+First of all, The simplex method comes in as an answer for the limitation of the graphical method. Instead of solving Linear programs (LPs) of 2 variables, now we are able to solve LPs of n variables. But why the "simplex" ? is it just a random name ? 
+
+let's take a look in the [Wikipedia](https://en.wikipedia.org/wiki/Simplex) definition :
 
 > a simplex is a generalization of the notion of triangle or tetrahedron. The simplex is so-named because it represents the simplest possible polytope in any given space.
 
@@ -23,11 +24,11 @@ you might ask why it is important ? well keep this definition in mind, it will m
 
 it is important to have some knowledge of the basic technical terms of the field :
 
-*Convex Set :*
+*Convex Set :* a set where any two point of the subset, the line segment joining them is in the subset 
 
-*Feasible Solution :* the solutions satisfying all the constraints (infinite number)
+*Feasible Solution :* the solutions satisfying all the constraints 
 
-*infeasible solution :*
+*Infeasible solution :* the solutions that do not satisfies one or more constraints
 
 *Optimal Solution :* the best feasible solution
 
@@ -48,7 +49,11 @@ converting (=<) inequalities into equations : we add a non negative slack variab
 
 converting (>=) inequalities into equations : we substrate a non negative surplus variable, which represents how much we exceeds the limits.
 
-Example
+Example :
+
+![](https://latex.codecogs.com/svg.image?%7Bmax%7D%5C%20z%20=%20x_1%20&plus;%202x_2%20%5C%5C%7B%5C%20%5C%20%5C%20%5C%20%7D%20s.t%5C%20%5C%20%5C%20%5C%20%20x_1%20&plus;%20x_3%20=%203,%5C%5C%7B%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20%7Dx_1%20&plus;%20x_2%20&plus;%20x_4%20=%205,%5C%5C%7B%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20%7Dx_1,x_2,%20x_3,%20x_4%20%5Cgeq%200)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **The graph**
 
