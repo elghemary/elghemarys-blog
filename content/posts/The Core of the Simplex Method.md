@@ -88,7 +88,7 @@ Let's Apply this to the previous example of our LP
 
 1. Let's choose the origin as the initial vertex
 
-  ![](https://latex.codecogs.com/svg.image?x_1%20=%20x_2%20=%200) ![](<img src="https://latex.codecogs.com/svg.image?x_3&space;=&space;3,\&space;x_4&space;=&space;5\&space;and\&space;z&space;=&space;0" title="x_3 = 3,\ x_4 = 5\ and\ z = 0" />)
+  ![](https://latex.codecogs.com/svg.image?x_1%20=%20x_2%20=%200) ![](https://latex.codecogs.com/svg.image?x_3&space;=&space;3,\&space;x_4&space;=&space;5\&space;and\&space;z&space;=&space;0)
 
 2. Choose a neighbor :
 
