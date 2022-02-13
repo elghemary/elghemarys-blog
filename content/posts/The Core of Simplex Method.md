@@ -1,20 +1,22 @@
 ---
-title: The Core of Simplex Method
-subtitle: The Geometrical Intuition Behind the Algorithm
+title: The Core of the Simplex Method
+subtitle: The Geometrical Intuition Behind an Optimization Algorithm 
 category:
   - Mathematics
 author: El Ghemary Farah
 date: 2021-12-22T19:24:59.781Z
 featureImage: /uploads/1.jpg
 ---
-Throughout my personal experience, the first interaction with operations research was great, but it didn't last as soon as we learned about the simplex method. I used to do the long and complex computations, but I could never tell why I'm doing them.
+Throughout my personal experience, Operation Reasech was one of the easiest yet the most confusing courses that I took this year. and what I mean by easy, is that we were introduced to the field by memorizing some random calculations for every optimization tecnic. and yes it is terrible as it sounds, no one actually understood why we do all the long boring calculations, and the most important thing ! Why it works ? 
+In this article, I will share the resume of what I learned, and how I like to think about every single step on the algorithm.
 
-The simplex method comes in as an answer for the limitation of the graphical method. Instead of solving Linear programs of 2 variables, now we are able to solve LPs of n variables, and we'll discuss later in this article the geometrical intuition behind it, and the mathematical interpretation of each iteration.
 
-but before going any further, what is a simplex ? let's take a look to the Wikipedia definition :
+First of all, The simplex method comes in as an answer for the limitation of the graphical method. Instead of solving Linear programs (LP) of 2 variables, now we are able to solve LPs of n variables, isn't cool ? but why the "simplex" ? is it just some random name ?! 
+let's take a look to the Wikipedia definition :
 
 > a simplex is a generalization of the notion of triangle or tetrahedron. The simplex is so-named because it represents the simplest possible polytope in any given space.
-you might ask why is it important ? what it has to do with the arbitrary calculations in the algorithm ? well keep this definition in mind, it will make sense at the end of this article.
+
+you might ask why it is important ? well keep this definition in mind, it will make sense at the end of this article.
 
 **Optimization Jargon**
 
@@ -28,7 +30,7 @@ it is important to have some knowledge of the basic technical terms of the field
 
 *Optimal Solution :* the best feasible solution
 
-*Extreme Point :* the vertex / corner of the feasible solution
+*Extreme Point :* the vertex or the corner of the feasible solution
 
 **Example of an LP**
 
