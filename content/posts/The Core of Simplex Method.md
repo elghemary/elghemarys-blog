@@ -34,7 +34,7 @@ it is important to have some knowledge of the basic technical terms of the field
 
 **Example of an LP**
 
-$$ latex$$
+![](https://latex.codecogs.com/svg.image?{max}\&space;z&space;=&space;x_1&space;&plus;&space;2x_2&space;\\{\&space;\&space;\&space;\&space;}&space;s.t\&space;\&space;\&space;\&space;&space;x_1&space;\leq&space;3,\\{\&space;\&space;\&space;\&space;\&space;\&space;\&space;\&space;\&space;\&space;\&space;}x_1&space;&plus;&space;x_2&space;\leq&space;5,\\{\&space;\&space;\&space;\&space;\&space;\&space;\&space;\&space;\&space;\&space;\&space;}x_1,x_2&space;\geq&space;0&space;)
 
 **the standard form of the LP**
 
