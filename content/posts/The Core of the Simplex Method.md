@@ -7,6 +7,7 @@ author: El Ghemary Farah
 date: 2021-12-22T19:24:59.781Z
 featureImage: /uploads/1.jpg
 ---
+
 Throughout my personal experience, Operation Reasech was one of the easiest yet the most confusing courses that I took this year. and what I mean by easy, is that we were introduced to the field by memorizing some random calculations for every optimization tecnic. and yes it is terrible as it sounds, no one actually understood why we do all the long boring calculations, and the most important thing ! Why it works ? 
 
 In this article, I will share the resume of what I learned, and how I like to think about every single step on the algorithm.
@@ -155,9 +156,4 @@ if not we change one vector of the basis without affecting the other edges of th
 
 Here is a python code that solve an LP problem using the simplex method
 
-
 ![](https://latex.codecogs.com/svg.latex?y%3Dx%5E2)
-<img src="https://latex.codecogs.com/svg.image?H^{4}" title="H^{4}" />
-
-![]()
-![]()
