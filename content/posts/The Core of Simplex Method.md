@@ -8,8 +8,8 @@ date: 2021-12-22T19:24:59.781Z
 featureImage: /uploads/1.jpg
 ---
 Throughout my personal experience, Operation Reasech was one of the easiest yet the most confusing courses that I took this year. and what I mean by easy, is that we were introduced to the field by memorizing some random calculations for every optimization tecnic. and yes it is terrible as it sounds, no one actually understood why we do all the long boring calculations, and the most important thing ! Why it works ? 
-In this article, I will share the resume of what I learned, and how I like to think about every single step on the algorithm.
 
+In this article, I will share the resume of what I learned, and how I like to think about every single step on the algorithm.
 
 First of all, The simplex method comes in as an answer for the limitation of the graphical method. Instead of solving Linear programs (LP) of 2 variables, now we are able to solve LPs of n variables, isn't cool ? but why the "simplex" ? is it just some random name ?! 
 let's take a look to the Wikipedia definition :
@@ -67,6 +67,7 @@ but why does this work ?
 
 ![](https://upload.wikimedia.org/wikipedia/commons/d/d4/Simplex-method-3-dimensions.png)
 
+
 **An** **Overview of the Algorithm**
 
 1. Choose the initial vertex
@@ -81,24 +82,26 @@ Let's Apply this to the previous example of our LP
 
 1. Let's choose the origin as the initial vertex
 
-   x_1 = x2 = 0=> x_3 = 3, x_4 = 5, z = 0
+  ![](https://latex.codecogs.com/svg.image?x_1%20=%20x_2%20=%200) ![](<img src="https://latex.codecogs.com/svg.image?x_3&space;=&space;3,\&space;x_4&space;=&space;5\&space;and\&space;z&space;=&space;0" title="x_3 = 3,\ x_4 = 5\ and\ z = 0" />)
+
 2. Choose a neighbor :
 
    from the graph we can see the moving from the origin to the vertex in x2 will increase our objective function faster than the vertex in x_1
 
-   so we choose x_1 as the basic
+   so we choose ![](https://latex.codecogs.com/svg.image?x_1) as the basic
 3. Choose the one that gets to zero first
 
-   If we increases x_2 then x_4 decreases to
+   If we increases ![](https://latex.codecogs.com/svg.image?x_2) then ![](https://latex.codecogs.com/svg.image?x_4) decreases to
 
-   so x_4 is the non-basic
+   so ![](https://latex.codecogs.com/svg.image?x_4) is the non-basic
 4. (0,5) is our current vertex:
 
-   x_3 = 3-x_1 = 3
+   ![](https://latex.codecogs.com/svg.image?x_3%20=%203%20-%20x_1%20=%203)
+   
+   ![](https://latex.codecogs.com/svg.image?x_4%20=%205%20-%20x_1%20-%20x_2%20=%205%20-%200%20-%205%20=%200)
+   
+   ![](https://latex.codecogs.com/svg.image?z%20=%2010)
 
-   x_4 = 5 - x_1 - x_2 = 5-0-5 = 0
-
-   Z = 10
 5. Choose a neighbor:
 
    whatever vertex we choose from the neighbors, our f decreases, so that means the algorithm stops and (0,5) is our solution
@@ -155,3 +158,6 @@ Here is a python code that solve an LP problem using the simplex method
 
 ![](https://latex.codecogs.com/svg.latex?y%3Dx%5E2)
 <img src="https://latex.codecogs.com/svg.image?H^{4}" title="H^{4}" />
+
+![]()
+![]()
