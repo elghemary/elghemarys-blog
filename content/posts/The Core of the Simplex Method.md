@@ -162,3 +162,4 @@ if not we change one vector of the basis without affecting the other edges of th
 Here is a python code that solve an LP problem using the simplex method
 
 ![](https://latex.codecogs.com/svg.latex?y%3Dx%5E2)
+$\alpha$
