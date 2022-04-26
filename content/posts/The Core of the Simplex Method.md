@@ -163,3 +163,5 @@ Here is a python code that solve an LP problem using the simplex method
 
 ![](https://latex.codecogs.com/svg.latex?y%3Dx%5E2)
 $\alpha$
+\alpha
+- $\forall \, x \in (1,2)$
